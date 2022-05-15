@@ -1,6 +1,6 @@
 def merge_sort(nums):
     # define the base case ( merge sort heavily relies on recursion method), split until we have just 1 element
-    # , arrays with single item is sorted by default
+    # arrays with single item is sorted by default
 
     if len(nums) == 1:  # base method
         return
